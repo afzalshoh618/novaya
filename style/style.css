@@ -1,0 +1,26 @@
+#book {
+	background-color: darkblue;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px;
+}
+
+h1 {
+	/*border: 5px solid blue;
+	dotted
+	dashed
+	double*/
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+}
+
+#img {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+	color: white;
+}
