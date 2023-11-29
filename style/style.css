@@ -39,12 +39,13 @@ body {
 	margin-top: 50px;
 	border-radius: 20px;
 	width: 60%;
-	height: 650px;
+	height: 500px;
 	max-width: 700px;
 }
 .title {
 	font-size: 30px;
 	color: blue;
+	font-family: 'brush script mt' 
 }
 
 img {
