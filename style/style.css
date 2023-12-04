@@ -204,7 +204,8 @@ body {
 	height: 50px;
 	background-color: white;
 	color: blue;
-	box-shadow: 5px 5px 10px black;
+	box-shadow: 2px 2px 5px black;
+	margin-bottom: 10px;
 
 
 }
@@ -220,7 +221,6 @@ body {
 .style1 a{
 	color: white;
 	margin-left: 121px;
-	margin-top: 20px;
 }
 .user {
 	background: url();
@@ -256,7 +256,11 @@ body {
 
 }
 
-form .user placeholder::{
+form .user::placeholder{
+	color: #fff;
+}
+
+form .pass::placeholder{
 	color: #fff;
 }
 
