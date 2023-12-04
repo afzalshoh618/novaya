@@ -25,10 +25,8 @@ h2 {
 	color: white;
 	text-transform: uppercase;
 }*/
-*{
-	margin: 0;
-	padding: 0;
-}
+
+/*}
 body {
 	background-color: darkblue;
 }
@@ -88,5 +86,186 @@ img {
 	background-color: blue;
 	color: white;
 	border-radius: 20px;
+
+	colors;
+	hex ranglari (#fff-> oq, #000 -> qora, #f00 -> qizil, #0f0 -> yashil, #00f -> ko`k)
+	#ff ff ff ff;
+	red green blue alpha  
+
+	rgb() & rgba();
+	red green blue;
+	rgb(0,0,0); // 0%
+	rgb (255,255,255); //100%
+	rgba(255, 0,0,0.5); // red 50%
+	rgb alpha -> 0 = 0%, 1.0 = 100%, 0.5 = 50%
 }
+
+
+
+body {
+	padding: 5px;
+
+}
+
+.h1 {
+	width: 200px;
+	display: inline-block;
+	border: 1px solid;
+}*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*CSS o'zgaruvchilar 2 turga bo'linadi 
+ 1- global o'garuvchilar 
+ 2 - local o'zgaruvchilar
+
+ Global o'zgaruvchilar - fayl ichidagi barcha selectorlar
+ uchun ishlatiladi
+
+ Localo'zgaruvchilar  - berilgan sellector ichida ishlatiladi,
+ boshqa sellectorlarda ishlamaydi
+
+ Global o'zgaruvchilar yaratish 
+  :root {
+  	--gvar1Name: value1;
+  	--gvar2Name: value2;
+  }
+
+  Local o'zgaruvchilar yaratish sellector{
+	--lvar1Name: value1;
+	--lvar2Name: value2;
+  }
+
+  O'zgaruvcholarni ishlatish uchun var(--varName)
+  selector {
+	property:var(--varName);
+	xususiyat-nomi: qiymati;
+  }
+  	*/
+
+/*:root {
+	--qizil:green;
+	--yashil: green;
+	--matnSoya: 2px 2px 10px var(--yashil);
+
+}
+.var1 {
+	color: var(--qizil);
+	text-shadow: var(--matnSoya);
+	font:500 25px/1.8em "calibri",sans-serif;
+}
+
+.var2 {
+	color: var(--qizil);
+}
+
+.var3 {
+	color: var(--qizil);
+}
+
+.var4 {
+	color: var(--qizil);
+}
+
+.var5 {
+	--yashil: red;
+	color: var(--yashil);
+	
+}*/
+
+body {
+	background-color: blue;
+}
+.form {
+	border: 2px solid white;
+	display: inline-block;
+	width: 	200px;
+	height: 50px;
+	border-radius: 5px;
+	margin: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.input {
+	background-color: blue;
+	width: 700px;
+	height: 500px;
+	border: 10px white;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+.btn {
+	width: 200px;
+	height: 50px;
+	background-color: white;
+	color: blue;
+	box-shadow: 5px 5px 10px black;
+
+
+}
+.style1 {
+	background: none;
+	margin-left: 200px;
+
+
+}
+.logbtn{
+	text-align: right;
+}
+.style1 a{
+	color: white;
+	margin-left: 121px;
+	margin-top: 20px;
+}
+.user {
+	background: url();
+}
+#shop {
+	color: #ffff;
+	font-size: 100px;
+	margin-left: 270px;
+	margin-bottom: 70px;
+}
+
+.bx-user {
+
+}
+.pass {
+	margin-left: -0px;
+	padding: 30px;
+	color: white;
+}
+#icon1 {
+	color: white;
+	font-size: 20px;
+	margin-left: -198px;
+}
+.user {
+	padding: 30px;
+	color: #fff;
+}
+#icon2 {
+	color: white;
+	font-size: 20px;
+	margin-left: -198px;
+
+}
+
+form .user placeholder::{
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
 
